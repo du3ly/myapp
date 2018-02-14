@@ -16,8 +16,8 @@ docker-compose run web rake routes
 tmp/pids/server.pid
 
 Rails -> Generate Models
-docker-compose run web rails generate model "Noun"
-docker-compose run web rails generate controller "Noun"
+docker-compose run web rails generate model "Noun"    
+docker-compose run web rails generate controller "Noun"    
 
 ## Screenshots
 ![ScreenShot](https://github.com/du3ly/myapp/blob/master/images/Screen%20Shot%202018-02-01%20at%2010.40.15%20PM.png)
